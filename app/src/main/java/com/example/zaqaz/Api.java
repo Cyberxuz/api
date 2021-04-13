@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 public interface Api {
 
-    @GET("countries")
+    @GET("")
     Call<Location> getPosts();
 }
