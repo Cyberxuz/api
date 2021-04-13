@@ -4,9 +4,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:padding="9dp"
+
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+
     <EditText
         android:fontFamily="@font/raleway"
         android:textColor="@color/black"
@@ -42,6 +44,12 @@
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/weather"
+        android:scaleType="centerCrop"
+        ></ImageView>
 
 
 
