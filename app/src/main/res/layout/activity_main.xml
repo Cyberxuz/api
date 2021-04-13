@@ -23,6 +23,9 @@
 
     <androidx.cardview.widget.CardView
         android:layout_below="@id/edittextsearch"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
@@ -31,15 +34,15 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src=""
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/qwe"
                 ></ImageView>
 
-
-
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
+
 
 
 
